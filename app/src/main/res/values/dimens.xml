@@ -1,0 +1,23 @@
+<resources>
+    <dimen name="dp_176">176dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="dp_435">600dp</dimen>
+    <dimen name="dp_600">600dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dp_64">64dp</dimen>
+</resources>

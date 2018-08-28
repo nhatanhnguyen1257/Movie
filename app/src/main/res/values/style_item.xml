@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textview_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="textview_item_namefiml" parent="textview_item">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:lines">2</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="textview_item_date" parent="textview_item">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#a7a7a7</item>
+    </style>
+
+    <style name="layout_item_fiml">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/dp_16</item>
+        <item name="android:paddingLeft">@dimen/dp_16</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="textview_item_info" parent="textview_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/colorSplashScreen</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginRight">@dimen/dp_8</item>
+        <item name="android:layout_marginLeft">@dimen/dp_8</item>
+    </style>
+
+</resources>

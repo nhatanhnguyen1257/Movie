@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task.activityhome.HomeActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dp_50"/>
+
+    <fragment
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:tag="genres"
+        class="com.example.nhatanh_27_01_95.moviedb.task.genres.GenresFragment"
+        tools:layout="@layout/fragment_genres"/>
+</RelativeLayout>
